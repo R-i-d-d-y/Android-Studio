@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Activity..."
+        android:textColor="#2D1753"
+        android:textSize="20sp"
+        android:textStyle="bold"
+         />
+    <TextView
+        android:id="@+id/textid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Displaying name and age  from second Activity ..."
+        android:textSize="20sp"
+        android:textColor="#0B6C0E"
+        />
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name..."
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Age..."
+        android:inputType="number"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/buttonid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Submit"
+        />
+
+
+</LinearLayout>

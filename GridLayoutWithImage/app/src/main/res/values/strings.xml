@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GridLayoutWithImage</string>
+    <string-array name="girlName">
+        <item>Girl1</item>
+        <item>Girl2</item>
+        <item>Girl3</item>
+        <item>Girl4</item>
+        <item>Girl5</item>
+        <item>Girl6</item>
+
+
+    </string-array>
+</resources>

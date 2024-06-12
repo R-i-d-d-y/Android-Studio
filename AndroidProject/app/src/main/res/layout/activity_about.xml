@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".about">
+
+    <TextView
+        android:id="@+id/aboutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Meet Our Top-notch Development Team"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+    <ImageView
+        android:id="@+id/aboutPageLogo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/logo_about_page"/>
+    <TextView
+        android:id="@+id/project"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="30dp"
+        android:text="Project Name:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/violet"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/projectName"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="30dp"
+        android:text="Chatting in a fast and secured way
+        using bluetooth medium."
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="30dp"
+        android:text="Project Team:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/violet"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/teamName"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="30dp"
+        android:text="The Android Army"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/teamMembers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="30dp"
+        android:text="Team Members:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/violet"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp">
+        <TableRow>
+            <ImageView
+                android:id="@+id/hridoyImage"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/hridoy"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+            <TextView
+                android:id="@+id/hridoyName"
+               android:text="Hridoy Das"
+                android:layout_marginLeft="10dp"
+                android:width="150dp"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/hridoyRole"
+                android:text="Project Manager"
+                android:layout_marginLeft="10dp"
+                android:width="140dp"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/riddyImage"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/riddy"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+            <TextView
+                android:id="@+id/riddyName"
+                android:text="Jannatul Ferthous"
+                android:layout_marginLeft="10dp"
+                android:width="140dp"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/riddyRole"
+                android:text="Android Developer"
+                android:layout_marginLeft="10dp"
+                android:width="140dp"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/shozibImage"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/shozib"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+            <TextView
+                android:id="@+id/shozibName"
+                android:text="MD Mahedi Hasan"
+                android:layout_marginLeft="10dp"
+                android:width="140dp"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/shozibRole"
+                android:text="UI Designer"
+                android:layout_marginLeft="10dp"
+                android:width="140dp"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/sakiImage"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/riddy"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+            <TextView
+                android:id="@+id/sakiName"
+                android:text="Saqiul Islam"
+                android:layout_marginLeft="10dp"
+                android:width="140dp"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/sakiRole"
+                android:text="Jani na"
+                android:layout_marginLeft="10dp"
+                android:width="140dp"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
